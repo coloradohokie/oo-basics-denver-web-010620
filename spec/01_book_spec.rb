@@ -1,3 +1,6 @@
+require_relative 'spec_helper'
+require_relative '../lib/book.rb'
+
 describe 'Book' do
   describe '::new' do
     it 'gets initialized with a title' do
